@@ -32,6 +32,16 @@ div, p, input, button, form {
 	margin-right: 127px;
 }
 
+.logo a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.logo a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
 .main-menu{
 	padding: 0px;
 	margin: 0px;
