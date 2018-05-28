@@ -52,5 +52,22 @@ div, p, input, button, form {
 	float: right;
 	font-weight: bold;
 	font-size: 18px;
+}
 
+/*--second screen--*/
+
+h1{
+	margin: 52px 0 38px 44px;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.content-blocks{
+	margin:  0 0 55px 28px;
+}
+
+.content-review{
+	float: left;
+	padding: 0 57px 55px 43px;
+	display: block;
 }
