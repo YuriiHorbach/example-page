@@ -1,0 +1,50 @@
+@import url(reset.css);
+
+body{
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 15px;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+div, p, input, button, form {
+	box-sizing: border-box;
+}
+
+
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+}
+
+#main-content{
+	width: 100%;
+	overflow: hidden;
+
+}
+
+.main{
+	border: 1px solid red;
+	width: 100%;
+	overflow: hidden;
+	margin: auto;
+}
+
+.center{
+	width: 79%;
+	display: block;
+	border: 1px solid green;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.nested{
+	width: 500px;
+	float: left;
+	padding-right: 30px;
+	margin: 0 auto;
+	display: block;
+}

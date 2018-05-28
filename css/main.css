@@ -56,6 +56,13 @@ div, p, input, button, form {
 
 /*--second screen--*/
 
+
+
+#main-content{
+	width: 100%;
+	overflow: hidden;
+}
+
 h1{
 	margin: 52px 0 38px 44px;
 	font-size: 28px;
@@ -63,11 +70,51 @@ h1{
 }
 
 .content-blocks{
-	margin:  0 0 55px 28px;
+	margin:  37px 57px 55px 43px;
+	width:73%;
+	margin: 0 auto;
+
 }
 
-.content-review{
+.content-item{
+	//height: 243px;
+	width:355px;
 	float: left;
-	padding: 0 57px 55px 43px;
-	display: block;
+	margin: 0 auto;
+	padding: 30px;
+	border: 1px solid #d6d6d6;
+	margin-right: 57px;
+} 
+
+.content-item h3{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 22px;
+} 
+
+.content-item:nth-child(3){
+	margin-right: 0;
 }
+
+
+.content-text{
+	height: 100%;
+}
+
+#first-text-block{
+	line-height: 1.96;
+}
+
+
+.content-text{
+	line-height: 1.7;
+}
+
+.read-more{
+	display: block;
+	margin-top: 13px;
+}
+
+
+
+
