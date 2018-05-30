@@ -5,13 +5,15 @@ body{
 	font-size: 15px;
 	padding: 0px;
 	margin: 0px;
-	width: 100%;
+	
 }
+
 
 #wrapper{
 	width: 1280px;
 	margin: 0 auto;
 }
+
 
 div, p, input, button, form {
 	box-sizing: border-box;
@@ -27,6 +29,12 @@ div, p, input, button, form {
 	background: #22a2ec;
 	padding: 30px 45px;
 	color: #fff;
+
+}
+
+.header-all{
+	width: 1280px;
+	margin: 0 auto;
 }
 
 .logo{
@@ -77,29 +85,32 @@ div, p, input, button, form {
 	width: 93%;
 	overflow: hidden;
 	margin-bottom: 55px;
+	width: 1200px;
+	margin: 0 auto;
 }
 
 h1{
-	margin: 52px 0 38px 44px;
+	margin: 52px 0 38px 0;
 	font-size: 28px;
 	font-weight: bold;
 }
 
 .content-blocks{
-	//rgin:  37px 57px 55px 43px;
-	width:93%;
+	
+	width:100%;
 	margin: 0 auto;
 
 }
 
 .content-item{
 	//height: 243px;
-	width:355px;
+	width:327px;
 	float: left;
 	margin: 0 auto;
 	padding: 30px;
 	border: 1px solid #d6d6d6;
 	margin-right: 57px;
+	line-height: 1;
 } 
 
 .content-item h3{
@@ -110,6 +121,7 @@ h1{
 
 .content-item:nth-child(3){
 	margin-right: 0;
+
 	box-shadow: 0 0 36px #777777;
 	border-radius: 8px;
 }
@@ -145,29 +157,118 @@ h1{
 }
 /*--3d screen--*/
 
-h2{
-	margin: 52px 0 38px 44px;
-	font-size: 22px;
+.form-block{
+	width: 358px;
+	float: left;
+	
+}
+
+
+.form-card {
+	
+	
+	overflow: hidden;
+	
+	margin: 0 auto;
+	margin: 54px auto 0 auto;
+}
+
+.form-card h2 {
+	font-size: 23px;
 	font-weight: bold;
-	margin-bottom: 36px;
-}
-
-#id-info{
+	margin-bottom: 41px;
 	width: 100%;
+
+	
 }
 
-
-.form-card{
-	width: 73%;
+.form-all{
+	height: 301px;
+	
 	margin: 0 auto;
 }
 
-form{
-	width: 233px;
+.form{
 
+	width: 358px;
 }
 
 .input{
-	margin-bottom: 12px;
+	width: 240px;
+	margin: 0 211px 12px 0;
+	padding: 16px 23px;
+	color: #a9aaab;
+	border: 1px solid #d6d6d6;
+	
 }
+
+
+.txt-input{
+	border: 1px solid #d6d6d6;
+	color: #a9aaab;
+	padding: 16px 23px;
+	width: 289px; height: 74px;
+}
+
+.btn-submit{
+	background: #ebce0d;
+	border: none;
+	margin-top: 22px;
+	padding: 16px 45px;
+	font-weight: bold;
+}
+
+.card{
+	width: 770px;
+	height: 300px;
+	float: right;
+	background: #184c6b;
+	color: #c0ddee;
+	border-radius: 11px;
+	overflow: hidden;
+	
+
+}
+
+.card h3{
+	font-size: 21px;
+	font-weight: bold;
+	overflow: hidden;
+	margin: 42px 39px 26px 39px;
+	
+	
+}
+
+.card-text{
+	float: left;
+	width: 316px;
+	//margin: 0 60px 50px 39px;
+	margin:0 auto 50px 40px ;
+	line-height: 1.65;
+
+
+}
+
+.card-right{
+	float: right;
+	width: 315px;
+
+	margin: 0 35px 16px 27px;
+
+}
+
+.card-img{
+	margin-bottom: 16px;
+
+}
+
+.secure-data{
+	font-size: 12px;
+	color: #84898d;
+	margin-top: 22px;
+	font-weight: bold;
+	
+
+}
+
 

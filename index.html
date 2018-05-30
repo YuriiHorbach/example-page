@@ -6,56 +6,58 @@
 	<title>Моя первая верстка</title>
 </head>
 <body>
-	<div id="wrapper">
+	
 		<section id="header" class="clearfix">
-				<div class="logo">
-					<a href="index.html">Моя первая верстка</a>
-				</div><!-- logo -->
-					<nav>
-						<ul class="main-menu">
-							<li class="menu-item">
-								<a href="index.html">
-									Главная
-								</a>
-							</li>
-							<li class="menu-item">
-								<a href="#">
-									Портфолио
-								</a>
-							</li>
-							<li class="menu-item">
-								<a href="#">
-									Услуги
-								</a>
-							</li>
-							<li class="menu-item">
-								<a href="#">
-									Контакы
-								</a>
-							</li>
-						</ul>
-					</nav>
-				
-		
-				<div class="phone">
-					+38 (067) 311-11-11
+				<div class="header-all">
+					<div class="logo">
+						<a href="index.html">Моя первая верстка</a>
+					</div><!-- logo -->
+						<nav>
+							<ul class="main-menu">
+								<li class="menu-item">
+									<a href="index.html">
+										Главная
+									</a>
+								</li>
+								<li class="menu-item">
+									<a href="#">
+										Портфолио
+									</a>
+								</li>
+								<li class="menu-item">
+									<a href="#">
+										Услуги
+									</a>
+								</li>
+								<li class="menu-item">
+									<a href="#">
+										Контакы
+									</a>
+								</li>
+							</ul>
+						</nav>
+					
+							
+					<div class="phone">
+						+38 (067) 311-11-11
+					</div>
 				</div>
 		</section>
-		
+	<div id="wrapper">	
 			<section id="main-content clearfix">
 				<h1>Главный заголовок страницы</h1>
 					<ul class="content-blocks clearfix">
 							<li class="content-item">
 								<div id="first-text-block">
 									<h3>Это тестовая карточка #2</h3>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
 								</div>
 						</li>
 			
 								<li class="content-item">
 									<div class="content-text">
 										<h3>Это тестовая карточка #2</h3>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
 									</div>
 								<a href="#" class="read-more">Читать далее</a>
 						</li>
@@ -63,7 +65,7 @@
 								<li class="content-item">
 									<div class="content-text">
 										<h3>Это тестовая карточка #2</h3>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
 									</div>
 								<a href="#" class="read-more">Читать далее</a>
 						</li>
@@ -71,24 +73,35 @@
 			</section>
 			
 			<section id="get-info">
+				<div class="form-card">
 					<h2>Заголовок второй секции</h2>
-					<div class="form-card">
-						<form action="#" class="form">
-								<input type="text" class="input" placeholder="Имя" name="name">
-								<input type="email" class="input" placeholder="E-mail" name="email">
-								<input type="phone" class="input" placeholder="Телефон" name="phone">
-								<textarea name="txt" id="" cols="30" rows="10" class="txt"></textarea>
-								<button type="submit" class="btn-submit">Отправить</button>
-						</form>
-						<div class="card">
-							<div id="first-text-block">
-										<h3>Это тестовая карточка #2</h3>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+					
+						<div class="form-all">
+							<div class="form-block">
+								<form action="#" class="form">
+										<input type="text" class="input" placeholder="Имя" name="name">
+										<input type="email" class="input" placeholder="E-mail" name="email">
+										<input type="phone" class="input" placeholder="Телефон" name="phone">
+										<textarea name="txt" id=""  class="txt-input" placeholder="Сообщение"></textarea>
+										<input  type="submit" name="btn" class="btn-submit" value="Отправить">
+								</form>
 							</div>
-							<img src="img/card.jpg" alt="card">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+							<div class="card">
+								<div id="first-text-block">
+											<h3>Заголовок карточки</h3>
+												<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
+							
+												
+								</div>
+								<div class="card-right">
+									<img src="img/card.jpg" alt="card" class="card-img">
+									<p>Lorem ipsum dolor sit amet</p>
+								</div>
+							</div>
 						</div>
+
 					</div>
+					<div class="secure-data">Ваши данные надежно защищены</div>
 		
 		
 		
