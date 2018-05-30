@@ -32,7 +32,7 @@ div, p, input, button, form {
 
 }
 
-.header-all{
+.header-all, .footer-block{
 	width: 1280px;
 	margin: 0 auto;
 }
@@ -267,8 +267,61 @@ h1{
 	color: #84898d;
 	margin-top: 22px;
 	font-weight: bold;
-	
+	margin-bottom: 42px;
+}
 
+footer{
+	background: #22a2ec;
+	overflow: hidden;
+	font-size: 12px;
+	font-weight: bold;
+	
+	
+}
+
+.allrights, .square-btn, .round-btn, .hero{
+	color: #fff;
+	float: left;
+	
+}
+
+.allrights{
+	margin: 30px 43px 0 0;
+}
+
+.square-btn, .round-btn{
+	width: 145px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	padding: 13px 17px;
+	text-align: center;
+	margin-top: 16px;
+}
+
+.round-btn{
+	margin: 16px 66px;
+	border-radius: 25px;
 }
 
 
+.footer-text{
+	
+	float: left;
+	background: #fff;
+	padding: 13px 24px;
+	margin-top: 16px;
+	border-radius: 4px;
+	color: #22a2ec;
+	
+}
+
+.hero{
+	float: right;
+	margin-top: 30px;
+	
+}
+
+
+.square-btn{
+
+}
